@@ -1,69 +1,68 @@
 # 📊 Programa de Pesquisa de Satisfação
 
-<div align="center">
+Um sistema interativo em console desenvolvido em Python para coletar, validar e analisar dados de pesquisas de satisfação de atendimento ao cliente de forma dinâmica e automatizada.
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)
-![Status](https://img.shields.io/badge/Status-Concluído-success?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+🚀 Sobre o Projeto
+O Programa de Pesquisa de Satisfação foi criado para automatizar o processo de coleta de opiniões de clientes. O sistema valida dados de entrada em tempo real (como nomes, idades e opções de avaliação), calcula porcentagens estatísticas das respostas e exibe um relatório consolidado ao final de cada sessão, permitindo também reiniciar o ciclo quantas vezes o usuário desejar.
 
-</div>
+📸 Demonstração do Programa
+Veja abaixo o programa rodando no terminal e exibindo o resultado final da pesquisa:
 
-<p align="center">
-  Um sistema interativo em console desenvolvido em Python para coletar, validar e analisar dados de pesquisas de satisfação de atendimento ao cliente de forma dinâmica e automatizada.
-</p>
+PESQUISA DE SATISFAÇÃO DE ATENDIMENTO 
 
----
+Quantas pessoas serão entrevistadas nesta pesquisa? 10
+Iniciando pesquisa com 10 clientes.
 
-## 🚀 Sobre o Projeto
+--- Entrevistado 1 de 10 ---
+Digite o nome do cliente: alexandre
+Digite a idade do cliente: 51
+Opinião sobre o atendimento:
+ [1] EXCELENTE
+ [2] BOM
+ [3] RUIM
+Digite o número correspondente (1, 2 ou 3): 1
+...
+      RESULTADO FINAL DA PESQUISA    
+Total de entrevistados nesta sessão: 10
+a) Quantidade de respostas “EXCELENTE”: 4 (40.0%)
+   Quantidade de respostas “BOM”: 4 (40.0%)
+b) Quantidade de respostas “RUIM”: 2 (20.0%)
 
-O **Programa de Pesquisa de Satisfação** foi criado para automatizar o processo de coleta de opiniões de clientes. O sistema valida dados de entrada em tempo real (como nomes, idades e opções de avaliação), calcula porcentagens estatísticas das respostas e exibe um relatório consolidado ao final de cada sessão, permitindo também reiniciar o ciclo quantas vezes o usuário desejar.
+Deseja realizar uma nova pesquisa? (s/n): n
+Encerrando o programa de pesquisas. Obrigado!
 
----
+🛠️ Tecnologias Utilizadas
 
-## 🛠️ Tecnologias Utilizadas
+ Python: Linguagem principal utilizada para toda a lógica de programação, tratamento de exceções e manipulação de fluxo.
 
-*   [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/) **Python**: Linguagem principal utilizada para toda a lógica de programação, tratamento de exceções e manipulação de fluxo.
+  Fórmula Utilizada para o CálculoPara obter a porcentagem de cada categoria de resposta (Excelente, Bom, Ruim), o programa utiliza a seguinte fórmula matemática em proporção:
 
----
+  $$\text{Porcentagem} = \left( \frac{\text{Quantidade da Resposta}}{\text{Total de Entrevistados}} \right) \times 100$$
 
-## 📐 Fórmula Utilizada para o Cálculo
+  O valor final é formatado para exibir apenas uma casa decimal ($\text{:.1f}\%$).
+  
+  ⚙️ Funcionalidades
 
-Para obter a porcentagem de cada categoria de resposta (Excelente, Bom, Ruim), o programa utiliza a seguinte fórmula matemática em proporção:
+  ✨ Validação Robusta: Impede entradas inválidas usando blocos try/except e loops condicionais.
 
-$$\text{Porcentagem} = \left( \frac{\text{Quantidade da Resposta}}{\text{Total de Entrevistados}} \right) \times 100$$
+  🔄 Sessões Múltiplas: Permite rodar várias pesquisas consecutivas sem precisar reiniciar o script manualmente.
 
-O valor final é formatado para exibir apenas uma casa decimal ($\text{:.1f}\%$).
+  📋 Relatório Detalhado: Apresenta contagens absolutas e relativas (percentuais) de cada nível de satisfação.
 
----
-
-## ⚙️ Funcionalidades
-
-*   ✨ **Validação Robusta**: Impede entradas inválidas usando blocos `try/except` e loops condicionais.
-*   🔄 **Sessões Múltiplas**: Permite rodar várias pesquisas consecutivas sem precisar reiniciar o script manualmente.
-*   📋 **Relatório Detalhado**: Apresenta contagens absolutas e relativas (percentuais) de cada nível de satisfação.
-
----
-
-## 📥 Como Executar o Programa
-
+  📥 Como Executar o Programa
 Siga os passos abaixo para rodar o projeto em sua máquina:
 
-1. **Pré-requisitos**: Certifique-se de ter o [Python](https://www.python.org/) instalado em seu computador.
-2. **Baixar o código**: Salve o código principal com o nome `pesquisa.py` em uma pasta de sua preferência.
-3. **Abrir o terminal**: Abra o terminal (CMD, PowerShell ou terminal do VS Code) na pasta onde salvou o arquivo.
-4. **Executar**: Digite o comando abaixo e aperte `Enter`:
+Pré-requisitos: Certifique-se de ter o Python instalado em seu computador.
 
-```bash
+Baixar o código: Salve o código principal com o nome pesquisa.py em uma pasta de sua preferência.
+
+Abrir o terminal: Abra o terminal (CMD, PowerShell ou terminal do VS Code) na pasta onde salvou o arquivo.
+
+Executar: Digite o comando abaixo e aperte Enter:
+
 python pesquisa.py
-```
 
----
-
-## 📄 Licença
-
+📄 Licença
 Este projeto está sob a licença MIT. Sinta-se à vontade para utilizá-lo, modificá-lo e melhorá-lo!
 
----
-
-<p align="center">Desenvolvido com Python.</p>
+Desenvolvido com Python.
