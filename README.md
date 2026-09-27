@@ -66,4 +66,4 @@ Este projeto está sob a licença MIT. Sinta-se à vontade para utilizá-lo, mod
 
 ---
 
-<p align="center">Desenvolvido com 💙 e Python.</p>
+<p align="center">Desenvolvido com Python.</p>
