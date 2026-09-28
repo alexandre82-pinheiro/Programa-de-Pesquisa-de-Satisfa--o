@@ -12,36 +12,42 @@ Veja abaixo o programa rodando no terminal e exibindo o resultado final da pesqu
 
 🛠️ Tecnologias Utilizadas
 
- Python: Linguagem principal utilizada para toda a lógica de programação, tratamento de exceções e manipulação de fluxo.
+    Python: Linguagem principal utilizada para toda a lógica de programação, tratamento de exceções e manipulação de fluxo.
 
-  Fórmula Utilizada para o CálculoPara obter a porcentagem de cada categoria de resposta (Excelente, Bom, Ruim), o programa utiliza a seguinte fórmula matemática em proporção:
+   Fórmula Utilizada para o CálculoPara obter a porcentagem de cada categoria de resposta (Excelente, Bom, Ruim), o programa utiliza a seguinte fórmula matemática em proporção:
 
   $$\text{Porcentagem} = \left( \frac{\text{Quantidade da Resposta}}{\text{Total de Entrevistados}} \right) \times 100$$
 
-  O valor final é formatado para exibir apenas uma casa decimal ($\text{:.1f}\%$).
+    O valor final é formatado para exibir apenas uma casa decimal ($\text{:.1f}\%$).
   
-  ⚙️ Funcionalidades
+⚙️ Funcionalidades
 
-  ✨ Validação Robusta: Impede entradas inválidas usando blocos try/except e loops condicionais.
+    ✨ Validação Robusta: Impede entradas inválidas usando blocos try/except e loops condicionais.
 
-  🔄 Sessões Múltiplas: Permite rodar várias pesquisas consecutivas sem precisar reiniciar o script manualmente.
 
-  📋 Relatório Detalhado: Apresenta contagens absolutas e relativas (percentuais) de cada nível de satisfação.
+   🔄 Sessões Múltiplas: Permite rodar várias pesquisas consecutivas sem precisar reiniciar o script manualmente.
 
-  📥 Como Executar o Programa
-Siga os passos abaixo para rodar o projeto em sua máquina:
 
-Pré-requisitos: Certifique-se de ter o Python instalado em seu computador.
+   📋 Relatório Detalhado: Apresenta contagens absolutas e relativas (percentuais) de cada nível de satisfação.
 
-Baixar o código: Salve o código principal com o nome pesquisa.py em uma pasta de sua preferência.
 
-Abrir o terminal: Abra o terminal (CMD, PowerShell ou terminal do VS Code) na pasta onde salvou o arquivo.
+📥 Como Executar o Programa:
 
-Executar: Digite o comando abaixo e aperte Enter:
+    Siga os passos abaixo para rodar o projeto em sua máquina:
 
-python pesquisa.py
+    Pré-requisitos: Certifique-se de ter o Python instalado em seu computador.
+
+    Baixar o código: Salve o código principal com o nome pesquisa.py em uma pasta de sua preferência.
+
+    Abrir o terminal: Abra o terminal (CMD, PowerShell ou terminal do VS Code) na pasta onde salvou o arquivo.
+
+    Executar: Digite o comando abaixo e aperte Enter:
+
+    python pesquisa.py
+
 
 📄 Licença
-Este projeto está sob a licença MIT. Sinta-se à vontade para utilizá-lo, modificá-lo e melhorá-lo!
 
-Desenvolvido com Python.
+  Este projeto está sob a licença MIT. Sinta-se à vontade para utilizá-lo, modificá-lo e melhorá-lo!
+
+                    Desenvolvido com Python.
