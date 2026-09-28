@@ -8,28 +8,7 @@ O Programa de Pesquisa de Satisfação foi criado para automatizar o processo de
 📸 Demonstração do Programa
 Veja abaixo o programa rodando no terminal e exibindo o resultado final da pesquisa:
 
-PESQUISA DE SATISFAÇÃO DE ATENDIMENTO 
-
-Quantas pessoas serão entrevistadas nesta pesquisa? 10
-Iniciando pesquisa com 10 clientes.
-
---- Entrevistado 1 de 10 ---
-Digite o nome do cliente: alexandre
-Digite a idade do cliente: 51
-Opinião sobre o atendimento:
- [1] EXCELENTE
- [2] BOM
- [3] RUIM
-Digite o número correspondente (1, 2 ou 3): 1
-...
-      RESULTADO FINAL DA PESQUISA    
-Total de entrevistados nesta sessão: 10
-a) Quantidade de respostas “EXCELENTE”: 4 (40.0%)
-   Quantidade de respostas “BOM”: 4 (40.0%)
-b) Quantidade de respostas “RUIM”: 2 (20.0%)
-
-Deseja realizar uma nova pesquisa? (s/n): n
-Encerrando o programa de pesquisas. Obrigado!
+![alt text](image-2.png)
 
 🛠️ Tecnologias Utilizadas
 
